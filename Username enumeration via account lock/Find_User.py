@@ -1,10 +1,9 @@
 import requests
-import time
 
 # Replace with the URL you want to send the request to, should be end with /login
 url = "https://www.example.com/login"
 
-# save the user names in a file called users.txt
+# save the user names in a file called usernames.txt
 file_path = 'usernames.txt'
 
 # get a length when an invalid user is submitted and save it as in a variable invalid_user_output_size
